@@ -1,2 +1,2 @@
-# Sandbox_iOS
-The Sandbox for iOS where I maintain my skills in applications development.
+# Sandbox_DevSlopes
+The collection of iOS apps built during Mark's Price DevSlopes course.
