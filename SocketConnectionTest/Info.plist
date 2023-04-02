@@ -47,10 +47,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>The application needs to look for the BLE devices.</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>The application needs to look for the BLE devices.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>App uses your location to give you relevant, up-to-date weather information.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>App uses your location to give you relevant, up-to-date weather information.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App uses your location to give you relevant, up-to-date weather information.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -58,5 +60,9 @@
 	</dict>
 	<key>UIRequiresPersistentWiFi</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need to analyze and transcribe your audio. We hope that&apos;s cool!</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need to analyze and transcribe your audio. We hope that&apos;s cool!</string>
 </dict>
 </plist>

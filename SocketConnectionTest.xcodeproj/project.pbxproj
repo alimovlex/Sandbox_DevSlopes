@@ -3,10 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787A8E4729D9B07C00847A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E3829D9B07C00847A43 /* Assets.xcassets */; };
+		787A8E4A29D9B07C00847A43 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E3E29D9B07C00847A43 /* PopVC.swift */; };
+		787A8E4B29D9B07C00847A43 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E3F29D9B07C00847A43 /* MapVC.swift */; };
+		787A8E4C29D9B07C00847A43 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E4129D9B07C00847A43 /* Configuration.swift */; };
+		787A8E4D29D9B07C00847A43 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E4329D9B07C00847A43 /* PhotoCell.swift */; };
+		787A8E4E29D9B07C00847A43 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E4429D9B07C00847A43 /* DroppablePin.swift */; };
+		787A8E5429D9B74C00847A43 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 787A8E5329D9B74C00847A43 /* AlamofireImage */; };
+		787A8E6B29D9BC9A00847A43 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E5729D9BC9A00847A43 /* csv.swift */; };
+		787A8E6C29D9BC9A00847A43 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E5929D9BC9A00847A43 /* music.png */; };
+		787A8E6D29D9BC9A00847A43 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E5A29D9BC9A00847A43 /* music.mp3 */; };
+		787A8E6E29D9BC9A00847A43 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E5B29D9BC9A00847A43 /* pokemon.csv */; };
+		787A8E6F29D9BC9A00847A43 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E5C29D9BC9A00847A43 /* pokemon.ttf */; };
+		787A8E7029D9BC9A00847A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787A8E5D29D9BC9A00847A43 /* Assets.xcassets */; };
+		787A8E7329D9BC9A00847A43 /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E6329D9BC9A00847A43 /* PokemonCollectionViewController.swift */; };
+		787A8E7429D9BC9A00847A43 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E6429D9BC9A00847A43 /* PokemonDetailVC.swift */; };
+		787A8E7529D9BC9A00847A43 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E6629D9BC9A00847A43 /* Pokemon.swift */; };
+		787A8E7629D9BC9A00847A43 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A8E6829D9BC9A00847A43 /* PokeCell.swift */; };
+		7892EE2D29D8C3F50001FFB2 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE1E29D8C3F50001FFB2 /* Forecast.swift */; };
+		7892EE2E29D8C3F50001FFB2 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE1F29D8C3F50001FFB2 /* CurrentWeather.swift */; };
+		7892EE2F29D8C3F50001FFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7892EE2029D8C3F50001FFB2 /* Assets.xcassets */; };
+		7892EE3229D8C3F50001FFB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE2629D8C3F50001FFB2 /* Constants.swift */; };
+		7892EE3329D8C3F50001FFB2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE2729D8C3F50001FFB2 /* Services.swift */; };
+		7892EE3429D8C3F50001FFB2 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE2929D8C3F50001FFB2 /* WeatherCell.swift */; };
+		7892EE3529D8C3F50001FFB2 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892EE2A29D8C3F50001FFB2 /* WeatherVC.swift */; };
+		7892EE3A29D8C4CD0001FFB2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7892EE3929D8C4CD0001FFB2 /* Alamofire */; };
+		7892EE3D29D8C4FF0001FFB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7892EE3C29D8C4FF0001FFB2 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E2C4803B26A85091001FD745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C4802026A85091001FD745 /* Assets.xcassets */; };
 		E2C4803C26A85091001FD745 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C4802126A85091001FD745 /* tesla.jpg */; };
 		E2C4803D26A85091001FD745 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2C4802226A85091001FD745 /* DreamLister.xcdatamodeld */; };
@@ -40,6 +66,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		787A8E3829D9B07C00847A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787A8E3E29D9B07C00847A43 /* PopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		787A8E3F29D9B07C00847A43 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		787A8E4129D9B07C00847A43 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		787A8E4329D9B07C00847A43 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		787A8E4429D9B07C00847A43 /* DroppablePin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		787A8E5229D9B74200847A43 /* AlamofireImage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AlamofireImage; sourceTree = "<group>"; };
+		787A8E5729D9BC9A00847A43 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		787A8E5929D9BC9A00847A43 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		787A8E5A29D9BC9A00847A43 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		787A8E5B29D9BC9A00847A43 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		787A8E5C29D9BC9A00847A43 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		787A8E5D29D9BC9A00847A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787A8E6329D9BC9A00847A43 /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
+		787A8E6429D9BC9A00847A43 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		787A8E6629D9BC9A00847A43 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		787A8E6829D9BC9A00847A43 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		7892EE1E29D8C3F50001FFB2 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		7892EE1F29D8C3F50001FFB2 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		7892EE2029D8C3F50001FFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7892EE2629D8C3F50001FFB2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7892EE2729D8C3F50001FFB2 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7892EE2929D8C3F50001FFB2 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		7892EE2A29D8C3F50001FFB2 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		7892EE3C29D8C4FF0001FFB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2C4802026A85091001FD745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C4802126A85091001FD745 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		E2C4802326A85091001FD745 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
@@ -79,12 +130,163 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7892EE3A29D8C4CD0001FFB2 /* Alamofire in Frameworks */,
+				7892EE3D29D8C4FF0001FFB2 /* Foundation.framework in Frameworks */,
+				787A8E5429D9B74C00847A43 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		787A8E3729D9B07C00847A43 /* pixel-city */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E3829D9B07C00847A43 /* Assets.xcassets */,
+				787A8E3D29D9B07C00847A43 /* Controller */,
+				787A8E4029D9B07C00847A43 /* Utilities */,
+				787A8E4229D9B07C00847A43 /* View */,
+			);
+			path = "pixel-city";
+			sourceTree = "<group>";
+		};
+		787A8E3D29D9B07C00847A43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E3E29D9B07C00847A43 /* PopVC.swift */,
+				787A8E3F29D9B07C00847A43 /* MapVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		787A8E4029D9B07C00847A43 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E4129D9B07C00847A43 /* Configuration.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		787A8E4229D9B07C00847A43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E4329D9B07C00847A43 /* PhotoCell.swift */,
+				787A8E4429D9B07C00847A43 /* DroppablePin.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		787A8E5129D9B74200847A43 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E5229D9B74200847A43 /* AlamofireImage */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		787A8E5529D9BC9A00847A43 /* pokedex3 */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E5629D9BC9A00847A43 /* Util */,
+				787A8E5829D9BC9A00847A43 /* Resources */,
+				787A8E5D29D9BC9A00847A43 /* Assets.xcassets */,
+				787A8E6229D9BC9A00847A43 /* Controller */,
+				787A8E6529D9BC9A00847A43 /* Model */,
+				787A8E6729D9BC9A00847A43 /* View */,
+			);
+			path = pokedex3;
+			sourceTree = "<group>";
+		};
+		787A8E5629D9BC9A00847A43 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E5729D9BC9A00847A43 /* csv.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		787A8E5829D9BC9A00847A43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E5929D9BC9A00847A43 /* music.png */,
+				787A8E5A29D9BC9A00847A43 /* music.mp3 */,
+				787A8E5B29D9BC9A00847A43 /* pokemon.csv */,
+				787A8E5C29D9BC9A00847A43 /* pokemon.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		787A8E6229D9BC9A00847A43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E6329D9BC9A00847A43 /* PokemonCollectionViewController.swift */,
+				787A8E6429D9BC9A00847A43 /* PokemonDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		787A8E6529D9BC9A00847A43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E6629D9BC9A00847A43 /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		787A8E6729D9BC9A00847A43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				787A8E6829D9BC9A00847A43 /* PokeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7892EE1C29D8C3F50001FFB2 /* rainyshinycloudy */ = {
+			isa = PBXGroup;
+			children = (
+				7892EE1D29D8C3F50001FFB2 /* ViewModel */,
+				7892EE2529D8C3F50001FFB2 /* Model */,
+				7892EE2829D8C3F50001FFB2 /* View */,
+				7892EE2029D8C3F50001FFB2 /* Assets.xcassets */,
+			);
+			path = rainyshinycloudy;
+			sourceTree = "<group>";
+		};
+		7892EE1D29D8C3F50001FFB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7892EE1E29D8C3F50001FFB2 /* Forecast.swift */,
+				7892EE1F29D8C3F50001FFB2 /* CurrentWeather.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7892EE2529D8C3F50001FFB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7892EE2629D8C3F50001FFB2 /* Constants.swift */,
+				7892EE2729D8C3F50001FFB2 /* Services.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7892EE2829D8C3F50001FFB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7892EE2929D8C3F50001FFB2 /* WeatherCell.swift */,
+				7892EE2A29D8C3F50001FFB2 /* WeatherVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7892EE3B29D8C4FF0001FFB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7892EE3C29D8C4FF0001FFB2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2C4801D26A84ACA001FD745 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,10 +407,15 @@
 		EA6C50E2206E3DC100FF70D4 = {
 			isa = PBXGroup;
 			children = (
+				787A8E5529D9BC9A00847A43 /* pokedex3 */,
+				787A8E5129D9B74200847A43 /* Packages */,
+				787A8E3729D9B07C00847A43 /* pixel-city */,
+				7892EE1C29D8C3F50001FFB2 /* rainyshinycloudy */,
 				E2C4805126A856F8001FD745 /* PartyRockApp */,
 				E2C4801F26A85091001FD745 /* DreamLister */,
 				EA6C50ED206E3DC200FF70D4 /* SocketConnectionTest */,
 				EA6C50EC206E3DC200FF70D4 /* Products */,
+				7892EE3B29D8C4FF0001FFB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,6 +466,10 @@
 			dependencies = (
 			);
 			name = SocketConnectionTest;
+			packageProductDependencies = (
+				7892EE3929D8C4CD0001FFB2 /* Alamofire */,
+				787A8E5329D9B74C00847A43 /* AlamofireImage */,
+			);
 			productName = SocketConnectionTest;
 			productReference = EA6C50EB206E3DC200FF70D4 /* SocketConnectionTest.app */;
 			productType = "com.apple.product-type.application";
@@ -289,6 +500,9 @@
 				Base,
 			);
 			mainGroup = EA6C50E2206E3DC100FF70D4;
+			packageReferences = (
+				7892EE3829D8C4CD0001FFB2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = EA6C50EC206E3DC200FF70D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,9 +521,16 @@
 				E2C4803C26A85091001FD745 /* tesla.jpg in Resources */,
 				E2C4803B26A85091001FD745 /* Assets.xcassets in Resources */,
 				E2C4806926A856F8001FD745 /* still time.ttf in Resources */,
+				787A8E7029D9BC9A00847A43 /* Assets.xcassets in Resources */,
 				EA6C50F4206E3DC200FF70D4 /* Main.storyboard in Resources */,
+				787A8E6C29D9BC9A00847A43 /* music.png in Resources */,
 				E2C4806226A856F8001FD745 /* Assets.xcassets in Resources */,
+				7892EE2F29D8C3F50001FFB2 /* Assets.xcassets in Resources */,
+				787A8E4729D9B07C00847A43 /* Assets.xcassets in Resources */,
 				E2C4805026A855DD001FD745 /* Assets.xcassets in Resources */,
+				787A8E6E29D9BC9A00847A43 /* pokemon.csv in Resources */,
+				787A8E6F29D9BC9A00847A43 /* pokemon.ttf in Resources */,
+				787A8E6D29D9BC9A00847A43 /* music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,27 +542,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C4806826A856F8001FD745 /* PartyCell.swift in Sources */,
+				787A8E7429D9BC9A00847A43 /* PokemonDetailVC.swift in Sources */,
 				E2C4806526A856F8001FD745 /* VideoVC.swift in Sources */,
 				E2C4804826A85091001FD745 /* Item+CoreDataClass.swift in Sources */,
+				787A8E4E29D9B07C00847A43 /* DroppablePin.swift in Sources */,
+				787A8E7529D9BC9A00847A43 /* Pokemon.swift in Sources */,
 				EA6C5112206E3F8C00FF70D4 /* SocketDataManager.swift in Sources */,
 				E2C4804026A85091001FD745 /* ItemDetailsVC.swift in Sources */,
 				E2C4804B26A85091001FD745 /* MaterialView.swift in Sources */,
+				7892EE3529D8C3F50001FFB2 /* WeatherVC.swift in Sources */,
+				787A8E4C29D9B07C00847A43 /* Configuration.swift in Sources */,
 				E2C4806726A856F8001FD745 /* PartyRock.swift in Sources */,
+				7892EE3229D8C3F50001FFB2 /* Constants.swift in Sources */,
+				787A8E4B29D9B07C00847A43 /* MapVC.swift in Sources */,
 				EA6C50F1206E3DC200FF70D4 /* ViewController.swift in Sources */,
 				E2C4804C26A85091001FD745 /* CustomTextField.swift in Sources */,
 				E2C4804526A85091001FD745 /* Image+CoreDataProperties.swift in Sources */,
 				E2C4804A26A85091001FD745 /* ItemCell.swift in Sources */,
+				7892EE2E29D8C3F50001FFB2 /* CurrentWeather.swift in Sources */,
 				E2C4803D26A85091001FD745 /* DreamLister.xcdatamodeld in Sources */,
 				E2C4804726A85091001FD745 /* Store+CoreDataClass.swift in Sources */,
 				E2C4804426A85091001FD745 /* Store+CoreDataProperties.swift in Sources */,
+				7892EE3329D8C3F50001FFB2 /* Services.swift in Sources */,
+				787A8E4A29D9B07C00847A43 /* PopVC.swift in Sources */,
 				EA6C5110206E3E4100FF70D4 /* DataSocket.swift in Sources */,
 				E2C4806626A856F8001FD745 /* PartyRockMainVC.swift in Sources */,
+				7892EE2D29D8C3F50001FFB2 /* Forecast.swift in Sources */,
+				7892EE3429D8C3F50001FFB2 /* WeatherCell.swift in Sources */,
 				E2C4804126A85091001FD745 /* DreamListerMainVC.swift in Sources */,
 				E2C4804326A85091001FD745 /* ItemType+CoreDataProperties.swift in Sources */,
+				787A8E7629D9BC9A00847A43 /* PokeCell.swift in Sources */,
 				E2C4804226A85091001FD745 /* Item+CoreDataProperties.swift in Sources */,
+				787A8E6B29D9BC9A00847A43 /* csv.swift in Sources */,
+				787A8E7329D9BC9A00847A43 /* PokemonCollectionViewController.swift in Sources */,
 				E2C4804926A85091001FD745 /* ItemType+CoreDataClass.swift in Sources */,
 				EA6C50EF206E3DC200FF70D4 /* AppDelegate.swift in Sources */,
 				E2C4804626A85091001FD745 /* Image+CoreDataClass.swift in Sources */,
+				787A8E4D29D9B07C00847A43 /* PhotoCell.swift in Sources */,
 				EA6C5114206EB00F00FF70D4 /* PresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +711,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -484,10 +722,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A9CX99HJE;
+				DEVELOPMENT_TEAM = 67BUZRGVX2;
 				INFOPLIST_FILE = SocketConnectionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rhonda.sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -500,10 +741,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A9CX99HJE;
+				DEVELOPMENT_TEAM = 67BUZRGVX2;
 				INFOPLIST_FILE = SocketConnectionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rhonda.sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -533,6 +777,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7892EE3829D8C4CD0001FFB2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		787A8E5329D9B74C00847A43 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlamofireImage;
+		};
+		7892EE3929D8C4CD0001FFB2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7892EE3829D8C4CD0001FFB2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E2C4802226A85091001FD745 /* DreamLister.xcdatamodeld */ = {
