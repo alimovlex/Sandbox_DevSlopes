@@ -15,12 +15,14 @@
             android:id="@+id/button_first"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="131dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="24dp"
             android:text="@string/next"
+            app:layout_constraintBottom_toTopOf="@+id/textInputEditText"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/totalTextView" />
 
         <TextView
             android:id="@+id/totalTextView"
@@ -38,11 +40,31 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="69dp"
-            android:text="What is the percentage"
+            android:layout_marginTop="16dp"
+            android:text="What is"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/totalTextView" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="280dp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Enter percentage"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
