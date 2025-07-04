@@ -15,12 +15,20 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.sandbox.databinding.ActivityMainBinding;
+import com.google.android.material.textfield.TextInputEditText;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Button;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView totalTextView;
+    TextInputEditText percentageTxt;
+    TextInputEditText numberTxt;
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
@@ -43,6 +51,21 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAnchorView(R.id.fab)
                         .setAction("Action", null).show();
+            }
+        });
+        //MY CODE HERE
+
+        totalTextView = (TextView)findViewById(R.id.totalTextView);
+        percentageTxt = (TextInputEditText)findViewById(R.id.percentageTxt);
+        numberTxt = (TextInputEditText)findViewById(R.id.numberTxt);
+        Button calcBtn = (Button) findViewById(R.id.calcBtn);
+        calcBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                float percentage = Float.parseFloat(percentageTxt.getText().toString());
+                float dec = percentage / 100;
+                float total = dec * Float.parseFloat(numberTxt.getText().toString());
+                totalTextView.setText(Float.toString(total));
             }
         });
     }
