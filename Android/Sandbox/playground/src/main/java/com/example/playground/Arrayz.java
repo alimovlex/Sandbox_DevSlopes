@@ -1,18 +1,13 @@
 package com.example.playground;
 
-public class Arrays {
+public class Arrayz {
 
     public static void arrayPrint(String[]... z) {
-        int len = 0;
-        String arrayLength = String.format("Array length is: %d", len);
         for (String str[] : z) {           // for each loop
             for (String i : str) {
                 System.out.println(i);
-                len++;
             }
-
         }
-        System.out.println(arrayLength);
     }
     public static void first_lesson() {
         //Tom (plays baseball)
