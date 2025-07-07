@@ -10,10 +10,7 @@ public class ScratchPad {
     }
 
     public static void second_lesson() {
-        String vehicle = "Truck";
-        String make = "Chevy";
-        String model = "Tahoe";
-
+        String vehicle = "Truck", make = "Chevy", model = "Tahoe";
         String fullVehicleDetails = vehicle + " - " + make + " : " + model;
         System.out.println(fullVehicleDetails);
 
