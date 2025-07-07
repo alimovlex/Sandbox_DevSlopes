@@ -6,7 +6,7 @@ public class ScratchPad {
         int homeRuns = 55;
         float bankBalance = 100.44f;
         float finalBalance = bankBalance - 50;
-        System.out.println(name + " has " + finalBalance + " in his account!\n");
+        System.out.println(name + " has " + finalBalance + " in his account!");
     }
 
     public static void second_lesson() {
@@ -23,7 +23,7 @@ public class ScratchPad {
         System.out.println(printBalance);
     }
     public static void main(String[] args) {
-        ScratchPad.first_lesson();
-        ScratchPad.second_lesson();
+        first_lesson();
+        second_lesson();
     }
 }

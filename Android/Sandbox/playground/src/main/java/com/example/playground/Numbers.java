@@ -20,6 +20,6 @@ public class Numbers {
         System.out.println(modulo);
     }
     public static void main(String[] args) {
-        Numbers.first_lesson();
+        first_lesson();
     }
 }
