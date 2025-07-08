@@ -26,6 +26,19 @@ public class ScratchPad {
     public static void third_lesson() {
         Person person = new Person("Jack", "Bauer", 45);
         person.speakName();
+
+        Vehicle vehicle = new Vehicle("Honda", "Civic");
+        vehicle.accelerate();
+
+        Car car = new Car("Chevy", "Camaro");
+        Bus bus = new Bus("Yellow", "Bus");
+
+        car.accelerate();
+        bus.accelerate();
+        car.turnNOS();
+
+        vehicle.printDetails();
+        car.printDetails();
     }
     public static void main(String[] args) {
         first_lesson();
