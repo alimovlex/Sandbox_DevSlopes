@@ -22,8 +22,14 @@ public class ScratchPad {
         String printBalance = String.format("Your account balance is %d", accountBalance);
         System.out.println(printBalance);
     }
+
+    public static void third_lesson() {
+        Person person = new Person("Jack", "Bauer", 45);
+        person.speakName();
+    }
     public static void main(String[] args) {
         first_lesson();
         second_lesson();
+        third_lesson();
     }
 }
