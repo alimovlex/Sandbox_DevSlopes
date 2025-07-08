@@ -39,6 +39,11 @@ public class ScratchPad {
 
         vehicle.printDetails();
         car.printDetails();
+
+        Rectangle rect = new Rectangle();
+        Triangle tri = new Triangle();
+        rect.calculateArea(5,6);
+        tri.calculateArea(5,8);
     }
     public static void main(String[] args) {
         first_lesson();
