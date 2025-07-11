@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.coolcalc'
+    namespace 'com.devslopes.coolcalc'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.coolcalc"
+        applicationId "com.devslopes.coolcalc"
         minSdk 23
         targetSdk 34
         versionCode 1
