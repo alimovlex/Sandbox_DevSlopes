@@ -20,8 +20,8 @@ public class CalcActivity extends Activity {
     String leftValueStr = "";
     String rightValueStr = "";
     Operation currentOperation;
-    int result = 0;
-
+    long result = 0;
+    double res = 0.0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -179,21 +179,25 @@ public class CalcActivity extends Activity {
 
                 switch (currentOperation) {
                     case ADD:
-                        result = Integer.parseInt(leftValueStr) + Integer.parseInt(rightValueStr);
+                        result = Long.parseLong(leftValueStr) + Long.parseLong(rightValueStr);
                         break;
                     case SUBTRACT:
-                        result = Integer.parseInt(leftValueStr) - Integer.parseInt(rightValueStr);
+                        result = Long.parseLong(leftValueStr) - Long.parseLong(rightValueStr);
                         break;
                     case MULTIPLY:
-                        result = Integer.parseInt(leftValueStr) * Integer.parseInt(rightValueStr);
+                        result = Long.parseLong(leftValueStr) * Long.parseLong(rightValueStr);
                         break;
                     case DIVIDE:
-                        result = Integer.parseInt(leftValueStr) / Integer.parseInt(rightValueStr);
+                        res = Double.parseDouble(leftValueStr) / Double.parseDouble(rightValueStr);
                         break;
                 }
-
-                leftValueStr = String.valueOf(result);
-                resultsView.setText(leftValueStr);
+                if (res != 0.0) {
+                    leftValueStr = String.valueOf(res);
+                    resultsView.setText(leftValueStr);
+                } else {
+                    leftValueStr = String.valueOf(result);
+                    resultsView.setText(leftValueStr);
+                }
             }
 
 
@@ -205,7 +209,7 @@ public class CalcActivity extends Activity {
         currentOperation = operation;
     }
 
-    void numberPressed(int number) {
+    void numberPressed(long number) {
         runningNumber += String.valueOf(number);
         resultsView.setText(runningNumber);
     }
